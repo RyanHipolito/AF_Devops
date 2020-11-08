@@ -12,5 +12,4 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		)
 
 public class getPostRunner extends AbstractTestNGCucumberTests {
-	
-}
+	}
