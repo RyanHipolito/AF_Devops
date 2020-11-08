@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="BDD Automation Devops Read and check">
+<suite name="BDD Automation Devops">
 
 <test name="Get and check API status code">
 	<classes>
