@@ -1,0 +1,10 @@
+ - hosts: server
+   gather_facts: no
+   vars:
+    ansible_user: ec2-user
+    ansible_ssh_private_key_file: "/home/ec2-user/.ssh/DevopsChef_Server.pem"
+    src_file: "/var/lib/jenkins/workspace/Devops_Demo/BDDAutomation_Devops/src/API_Queries"
+    dest_file: "/var/lib/jenkins/workspace/Devops_Demo/BDDAutomation_Devops/src/API_Queries"
+   tasks:
+     - name: Copy the file from server to nodes
+       command: sh {{src_file}}/Execute_Test_cases.sh {{dest_file}}/Test_cases.sql
