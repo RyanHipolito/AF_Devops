@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		format = {"pretty", "html:test-outout"},
 		dryRun = false, //always set as false to execute the test steps
 		monochrome = true // generates console output into a readable format
-//First Demo for Devops Initiative
+//Demo DevOps Initiative
 		)
 
 public class getPostRunner extends AbstractTestNGCucumberTests {
